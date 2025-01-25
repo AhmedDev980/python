@@ -1,0 +1,12 @@
+Virtual environment is used to create a separate space for each project in the machine.
+We can create this using 
+   pip install virtualenv ( it will create the virtual enivironment )
+     python -m venv project_1 ( it will create the separate space for project_1 in virtual machine )
+       source project_1/bin/activate  ( to activate the project_1 space to work on )
+       pip install jira ( it will install jira in project_1 space )
+       deactivate ( we will come out of the project_1 space )
+If we want to install s3 in another project space then we will follow as below
+     python -m venv project_2 ( it will create the separate space for project_1 in virtual machine )
+       source project_2/bin/activate  ( to activate the project_2 space to work on )
+       pip install s3 ( it will install s3 in project_2 space )
+       deactivate ( we will come out of the project_2 space )
