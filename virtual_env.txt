@@ -10,3 +10,9 @@ If we want to install s3 in another project space then we will follow as below
        source project_2/bin/activate  ( to activate the project_2 space to work on )
        pip install s3 ( it will install s3 in project_2 space )
        deactivate ( we will come out of the project_2 space )
+
+If we want to give password and that needs to be invisible in terminal then we can do
+  export password="bhjvhjb"
+For env we will use os. So we need to give import os
+print(os.getenv("password"))
+Then while running u can call the file name < python filename.py >
