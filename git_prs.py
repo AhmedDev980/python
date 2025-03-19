@@ -8,7 +8,7 @@ import requests
 # refer this  for pull api https://docs.github.com/en/rest/pulls/pulls?apiVersion=2022-11-28
 # below example https://github.com/AhmedDev980/python/pulls
 
-response = requests.get("https://api.github.com/repos/AhmedDev980/python/pulls")
+response = requests.get("https://api.github.com/repos/kubernetes/kubernetes/pulls")
 full_details = response.json()
 
 # len is used to do the itrations in full_details output if it has list of items to be executed.
