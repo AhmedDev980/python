@@ -1,4 +1,4 @@
-if --name-- == '--main':
+if __name__ == '__main__':
   n = int(input())  # provide the total number of students
   student_marks = {} # dictonary to create names and marks of students
   for i in range(n):
